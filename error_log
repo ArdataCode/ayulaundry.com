@@ -1,0 +1,410 @@
+[12-Jan-2024 06:51:39 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/ujianori/ayulaundry.com/wp-includes/pluggable.php on line 1435
+[12-Jan-2024 06:51:39 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/ujianori/ayulaundry.com/wp-includes/pluggable.php on line 1438
+[23-Jan-2024 00:38:18 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[23-Jan-2024 12:15:41 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[23-Jan-2024 12:15:41 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[23-Jan-2024 15:25:26 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[23-Jan-2024 17:38:56 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[25-Jan-2024 07:33:24 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[29-Jan-2024 13:20:22 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[29-Jan-2024 13:20:22 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[30-Jan-2024 18:41:00 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[30-Jan-2024 18:41:00 UTC] Cron reschedule event error for hook: rank_math/content-ai/update_prompts, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[30-Jan-2024 18:41:00 UTC] Cron unschedule event error for hook: rank_math/content-ai/update_prompts, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[30-Jan-2024 19:56:54 UTC] Cron reschedule event error for hook: rank_math/content-ai/update_prompts, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[31-Jan-2024 03:39:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/ayulaundry.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/ayulaundry.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/ujianori/ayulaundry.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/ujianori/ayulaundry.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/ujianori/ayulaundry.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/ujianori/ayulaundry.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/ujianori/ayulaundry.com/wp-includes/update.php(292): do_action()
+#12 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/ujianori/ayulaundry.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/ujianori/ayulaundry.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php on line 874
+[01-Feb-2024 22:46:14 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[01-Feb-2024 22:46:14 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[05-Feb-2024 00:06:36 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[05-Feb-2024 05:36:46 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[05-Feb-2024 05:36:47 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[05-Feb-2024 18:35:05 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[05-Feb-2024 19:12:43 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[07-Feb-2024 15:04:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/ayulaundry.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/ayulaundry.com/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/ujianori/ayulaundry.com/wp-admin/includes/class-wp-automatic-updater.php(1042): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/ujianori/ayulaundry.com/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/ujianori/ayulaundry.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/ujianori/ayulaundry.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/ujianori/ayulaundry.com/wp-includes/update.php(292): do_action()
+#12 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/ujianori/ayulaundry.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/ujianori/ayulaundry.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php on line 874
+[09-Feb-2024 04:59:46 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[12-Feb-2024 03:47:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/ayulaundry.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/ayulaundry.com/wp-includes/pluggable.php(2041): wp_mail()
+#5 /home/ujianori/ayulaundry.com/wp-includes/comment.php(2346): wp_notify_moderator()
+#6 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(326): wp_new_comment_notify_moderator()
+#7 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/ujianori/ayulaundry.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/ujianori/ayulaundry.com/wp-includes/comment.php(2320): do_action()
+#10 /home/ujianori/ayulaundry.com/wp-includes/comment.php(3671): wp_new_comment()
+#11 /home/ujianori/ayulaundry.com/wp-comments-post.php(25): wp_handle_comment_submission()
+#12 {main}
+  thrown in /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php on line 874
+[12-Feb-2024 03:47:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/ayulaundry.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/ayulaundry.com/wp-includes/pluggable.php(2041): wp_mail()
+#5 /home/ujianori/ayulaundry.com/wp-includes/comment.php(2346): wp_notify_moderator()
+#6 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(326): wp_new_comment_notify_moderator()
+#7 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/ujianori/ayulaundry.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/ujianori/ayulaundry.com/wp-includes/comment.php(2320): do_action()
+#10 /home/ujianori/ayulaundry.com/wp-includes/comment.php(3671): wp_new_comment()
+#11 /home/ujianori/ayulaundry.com/wp-comments-post.php(25): wp_handle_comment_submission()
+#12 {main}
+  thrown in /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php on line 874
+[13-Feb-2024 13:04:58 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[13-Feb-2024 18:01:00 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[14-Feb-2024 14:55:53 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[14-Feb-2024 14:55:53 UTC] Cron reschedule event error for hook: wp_version_check, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[15-Feb-2024 22:27:51 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[15-Feb-2024 22:27:52 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[25-Feb-2024 00:10:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/ayulaundry.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/ayulaundry.com/wp-includes/pluggable.php(2041): wp_mail()
+#5 /home/ujianori/ayulaundry.com/wp-includes/comment.php(2346): wp_notify_moderator()
+#6 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(326): wp_new_comment_notify_moderator()
+#7 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/ujianori/ayulaundry.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/ujianori/ayulaundry.com/wp-includes/comment.php(2320): do_action()
+#10 /home/ujianori/ayulaundry.com/wp-includes/comment.php(3671): wp_new_comment()
+#11 /home/ujianori/ayulaundry.com/wp-comments-post.php(25): wp_handle_comment_submission()
+#12 {main}
+  thrown in /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php on line 874
+[08-Mar-2024 14:59:09 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/ayulaundry.com/wp-includes/update.php on line 449
+[08-Mar-2024 14:59:11 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/ayulaundry.com/wp-includes/update.php on line 730
+[08-Mar-2024 14:59:14 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/ayulaundry.com/wp-includes/update.php on line 211
+[09-Mar-2024 03:06:21 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/ayulaundry.com/wp-includes/update.php on line 449
+[09-Mar-2024 03:06:24 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/ayulaundry.com/wp-includes/update.php on line 730
+[09-Mar-2024 03:06:26 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/ayulaundry.com/wp-includes/update.php on line 211
+[22-Mar-2024 20:21:51 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[03-Apr-2024 03:40:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/ayulaundry.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/ayulaundry.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/ujianori/ayulaundry.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/ujianori/ayulaundry.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/ujianori/ayulaundry.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/ujianori/ayulaundry.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/ujianori/ayulaundry.com/wp-includes/update.php(292): do_action()
+#12 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/ujianori/ayulaundry.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/ujianori/ayulaundry.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php on line 881
+[03-Apr-2024 16:23:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/ayulaundry.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/ayulaundry.com/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/ujianori/ayulaundry.com/wp-admin/includes/class-wp-automatic-updater.php(1042): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/ujianori/ayulaundry.com/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/ujianori/ayulaundry.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/ujianori/ayulaundry.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/ujianori/ayulaundry.com/wp-includes/update.php(292): do_action()
+#12 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/ujianori/ayulaundry.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/ujianori/ayulaundry.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php on line 881
+[09-Apr-2024 14:57:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/ayulaundry.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/ayulaundry.com/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/ujianori/ayulaundry.com/wp-admin/includes/class-wp-automatic-updater.php(1042): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/ujianori/ayulaundry.com/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/ujianori/ayulaundry.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/ujianori/ayulaundry.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/ujianori/ayulaundry.com/wp-includes/update.php(292): do_action()
+#12 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/ujianori/ayulaundry.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/ujianori/ayulaundry.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php on line 881
+[09-Apr-2024 22:16:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/ayulaundry.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/ayulaundry.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/ujianori/ayulaundry.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/ujianori/ayulaundry.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/ujianori/ayulaundry.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/ujianori/ayulaundry.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/ujianori/ayulaundry.com/wp-includes/update.php(292): do_action()
+#12 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/ujianori/ayulaundry.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/ujianori/ayulaundry.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php on line 881
+[24-Apr-2024 15:35:23 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:35:23 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:35:23 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:35:23 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:35:23 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:35:23 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:35:25 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:35:25 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:35:25 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:35:25 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:35:25 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:35:25 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:31:26 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:31:29 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:31:29 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:31:29 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:31:29 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:31:29 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:31:29 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:50:53 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:50:53 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:50:53 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:50:53 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:50:53 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:50:53 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 00:55:44 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 00:55:44 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 00:55:44 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 00:55:44 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 00:55:44 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 00:55:44 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 00:55:45 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 00:55:45 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 00:55:45 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 00:55:45 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 00:55:45 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 00:55:45 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 00:55:56 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 00:55:56 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 00:55:56 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 00:55:56 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 00:55:56 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 00:55:56 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 00:56:12 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 00:56:12 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 00:56:12 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 00:56:12 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 00:56:12 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 00:56:12 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 00:56:19 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 00:56:19 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 00:56:19 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 00:56:19 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 00:56:19 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 00:56:19 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 01:32:55 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 01:32:55 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 01:32:55 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 01:32:55 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 01:32:55 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 01:32:55 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 04:32:49 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 04:32:49 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 04:32:49 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 04:32:49 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 04:32:49 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 04:32:49 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 08:41:06 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 08:41:06 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 08:41:06 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 08:41:06 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 08:41:06 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 08:41:06 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 08:57:11 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 08:57:11 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 08:57:11 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 08:57:11 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 08:57:11 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 08:57:11 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 09:06:44 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 09:06:44 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 09:06:44 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 09:06:44 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 09:06:44 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 09:06:44 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 10:27:33 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 10:27:33 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 10:27:33 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 10:27:33 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 10:27:33 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 10:27:33 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 10:28:22 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 10:28:22 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 10:28:22 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 10:28:22 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 10:28:22 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 10:28:22 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 11:35:41 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 11:35:41 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 11:35:41 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 11:35:41 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 11:35:41 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 11:35:41 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 11:40:39 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 11:40:39 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 11:40:39 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 11:40:39 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 11:40:39 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 11:40:39 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 11:50:23 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 11:50:23 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 11:50:23 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 11:50:23 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 11:50:23 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 11:50:23 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 11:52:10 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 11:52:10 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 11:52:10 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 11:52:10 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 11:52:10 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 11:52:10 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 11:58:51 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 11:58:51 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 11:58:51 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 11:58:51 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 11:58:51 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 11:58:51 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 12:09:46 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 12:09:46 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 12:09:46 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 12:09:46 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 12:09:46 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 12:09:46 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 12:20:10 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 12:20:10 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 12:20:10 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 12:20:10 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 12:20:10 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 12:20:10 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 12:23:29 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 12:23:29 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 12:23:29 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 12:23:29 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 12:23:29 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 12:23:29 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 15:12:31 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 15:12:31 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 15:12:31 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 15:12:31 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 15:12:31 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 15:12:31 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 16:52:37 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 16:52:37 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 16:52:37 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 16:52:37 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 16:52:37 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 16:52:37 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 17:35:25 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 17:35:25 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 17:35:25 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 17:35:25 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 17:35:25 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 17:35:25 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ayulaundry.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[08-May-2024 03:02:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/ayulaundry.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/ayulaundry.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/ujianori/ayulaundry.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/ujianori/ayulaundry.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/ujianori/ayulaundry.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/ujianori/ayulaundry.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/ujianori/ayulaundry.com/wp-includes/update.php(292): do_action()
+#12 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/ujianori/ayulaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/ujianori/ayulaundry.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/ujianori/ayulaundry.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/ujianori/ayulaundry.com/wp-includes/PHPMailer/PHPMailer.php on line 881
+[13-May-2024 14:45:22 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/ayulaundry.com/wp-includes/update.php on line 449
